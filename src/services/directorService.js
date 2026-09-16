@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // La URL base de el backend para el módulo de directores
-const BASE_URL = 'http://localhost:3001/director';
+const BASE_URL = 'https://mi-backend-wy1n.onrender.com/director';
 
 export const obtenerDirectores = async () => {
   try {
