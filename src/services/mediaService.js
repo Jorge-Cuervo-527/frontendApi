@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3001/media';
+const BASE_URL = 'https://mi-backend-wy1n.onrender.com/media';
 
 export const obtenerMedia = async () => {
   try {

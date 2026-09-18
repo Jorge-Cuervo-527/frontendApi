@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3001/productora';
+const BASE_URL = 'https://mi-backend-wy1n.onrender.com/productora';
 
 export const obtenerProductoras = async () => {
   try {

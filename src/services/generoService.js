@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // La URL base de el backend para el módulo de géneros
-const BASE_URL = 'http://localhost:3001/genero';
+const BASE_URL = 'https://mi-backend-wy1n.onrender.com/genero';
 
 // FUNCIÓN PARA OBTENER TODOS LOS GÉNEROS
 export const obtenerGeneros = async () => {
